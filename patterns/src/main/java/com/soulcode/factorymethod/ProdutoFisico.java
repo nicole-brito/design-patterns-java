@@ -1,4 +1,4 @@
 package com.soulcode.factorymethod;
 
-public class ProdutoFisico {
+public class ProdutoFisico extends Produto {
 }

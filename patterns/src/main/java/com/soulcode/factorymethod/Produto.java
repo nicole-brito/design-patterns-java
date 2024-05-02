@@ -31,4 +31,12 @@ public class Produto {
         this.possuiDimensoes = possuiDimensoes;
     }
 
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "Descricao='" + descricao + '\'' +
+                ", Preco=" + preco +
+                ", PossuiDimensoes=" + possuiDimensoes +
+                '}';
+    }
 }
